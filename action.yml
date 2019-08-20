@@ -1,0 +1,10 @@
+name: 'Setup kubectl'
+description: 'Setup kubectl'
+author: 'Juraci Paixão Kröhling'
+inputs: 
+  kubectl-version:
+    description: 'The kubectl version to download. Example: v1.15.0'
+    default: 'v1.15.0'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
